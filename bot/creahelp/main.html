@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ticket MP bot</title>
+    <link rel="shortcut icon" type="image/png" href="image.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+
+        <button class="back-btn" onclick="history.back()">
+          <i class="fas fa-arrow-left"></i>
+          back
+        </button>
+
+
+        <h1>Création helper</h1>
+      </header>
+      <div class="content">
+        <img class="pp" src="image.png" alt="Photo de John Doe">
+        <p>Création helper est un bot aidant a la création de serveur discord grace a des commandes énumérée ci-dessous.</p>
+      </div>
+
+      <div class="command-list">
+        <h2>Liste des commandes :</h2>
+          <ul>
+            <h5>Commandes de création de salons :</h5>
+            <li><strong>!create_text_channel [Nom salon] [Nom catégorie] [Nom rôle]:</strong> Créer un salon de discution.</li>
+            <li><strong>!create_voice_channel [Nom salon] [Nom catégorie] [Nom rôle]:</strong> Créer un salon de discution.</li>
+            <h5>Commandes de création de rôles / catégories :</h5>
+            <li><strong>!create_category [Nom catégorie] [Nom rôle]:</strong> Créer une nouvelle catégorie.</li>
+            <li><strong>!create_role [Nom rôle] [Permissions] [Couleur]:</strong> Créer un nouveau rôle.</li>
+            <h5>Modifier les infos du serveur :</h5>
+            <li><strong>!server_settings [Name] [description] [Icone url] [Niveau de vérifiquation] [Temp AFK]:</strong>Modifier les infos du serveur.</li>
+            <h5>Créer un embed :</h5>
+            <li><strong>!create_embed [Titre] [Description] [Url] [Couleur] [thumbnail url] [Image URL] [Text footer] [Footer icone URL] [Nom d'autheur] [URL d'autheur] [Fields]</strong>Créer un embed.</li>
+            <h5>Commandes d'informations :</h5>
+            <li><strong>!infos:</strong> Affiche des informations sur le bot.</li>
+            <li><strong>!help:</strong> Affiche la liste des commandes.</li>
+          </ul>
+        </div>
+        <h3>Stats :</h3>
+          <img class="stats" src="https://top.gg/api/widget/servers/1088876167462924441.svg">
+          <img class="stats" src="https://top.gg/api/widget/upvotes/1088876167462924441.svg">
+
+        <div class="button-container">
+          <a class="discord-button" href="https://discord.com/api/oauth2/authorize?client_id=1088876167462924441&permissions=8&scope=bot">Ajouter le bot à votre serveur</a>
+        </div>
+
+      <footer>
+        <p>&copy; 2023, tous droits réservés</p>
+      </footer>
+    </div>
+  </body>
+</html>
